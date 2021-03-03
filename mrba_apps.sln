@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "daemon_app", "daemon_app\daemon_app.csproj", "{2031331D-D816-4DC1-AEC4-4E797D7B7435}"
+	ProjectSection(ProjectDependencies) = postProject
+		{89E795D4-E725-497B-BCB6-37F17A314EC0} = {89E795D4-E725-497B-BCB6-37F17A314EC0}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSHper", "CSHper\CSHper.csproj", "{89E795D4-E725-497B-BCB6-37F17A314EC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2031331D-D816-4DC1-AEC4-4E797D7B7435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2031331D-D816-4DC1-AEC4-4E797D7B7435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2031331D-D816-4DC1-AEC4-4E797D7B7435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2031331D-D816-4DC1-AEC4-4E797D7B7435}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89E795D4-E725-497B-BCB6-37F17A314EC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89E795D4-E725-497B-BCB6-37F17A314EC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89E795D4-E725-497B-BCB6-37F17A314EC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89E795D4-E725-497B-BCB6-37F17A314EC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {104DBC03-B0BE-406A-BB94-D40D273BA021}
+	EndGlobalSection
+EndGlobal
